@@ -22,6 +22,14 @@ sudo apt install nginx -y
 ```bash
 nginx -v
 ```
+- Enable Service
+```bash
+sudo systemctl enable nginx
+```
+- Check Service status
+```bash
+sudo systemctl status nginx
+```
 
 # Step 3: Start NGINX
 1. Start the NGINX service:
